@@ -1,0 +1,81 @@
+
+/* CSS Reference Guide */
+
+/* Layout Properties */
+display: /* Defines how an element is displayed (block, inline, flex, etc.) */;
+position: /* Specifies how an element is positioned (relative, absolute, fixed, sticky) */;
+top: /* Specifies the top position of an element (used with position) */;
+right: /* Specifies the right position of an element (used with position) */;
+bottom: /* Specifies the bottom position of an element (used with position) */;
+left: /* Specifies the left position of an element (used with position) */;
+z-index: /* Controls the stacking order of elements (higher value = higher on the stack) */;
+
+/* Box Model */
+margin: /* Defines space outside the element's border (margin-top, margin-right, etc.) */;
+padding: /* Defines space inside the element's border (padding-top, padding-right, etc.) */;
+border: /* Sets the border around an element (width, style, color) */;
+width: /* Defines the width of an element */;
+height: /* Defines the height of an element */;
+box-sizing: /* Controls box model behavior (content-box, border-box) */;
+
+/* Background and Borders */
+background-color: /* Sets the background color of an element */;
+background-image: /* Specifies a background image for an element */;
+background-repeat: /* Defines if/how a background image is repeated (repeat, no-repeat, etc.) */;
+background-size: /* Specifies the size of the background image (cover, contain, etc.) */;
+border-radius: /* Rounds the corners of an element's border */;
+
+/* Typography */
+font-family: /* Defines the font to be used in an element */;
+font-size: /* Sets the size of the font */;
+font-weight: /* Controls the boldness of text (normal, bold, bolder, lighter, etc.) */;
+line-height: /* Sets the line height of text */;
+text-align: /* Aligns text horizontally (left, right, center, justify) */;
+text-decoration: /* Adds decorations to text (underline, overline, line-through) */;
+letter-spacing: /* Adjusts the spacing between characters */;
+word-spacing: /* Adjusts the spacing between words */;
+
+/* Color */
+color: /* Sets the text color */;
+opacity: /* Controls the opacity level of an element (0 to 1) */;
+
+/* Flexbox */
+flex-direction: /* Defines the direction of the flex container (row, column, etc.) */;
+justify-content: /* Aligns flex items along the main axis (center, space-between, etc.) */;
+align-items: /* Aligns flex items along the cross axis (stretch, center, etc.) */;
+flex-wrap: /* Specifies whether flex items should wrap or not */;
+flex: /* A shorthand property for flex-grow, flex-shrink, and flex-basis */;
+
+/* Grid Layout */
+grid-template-columns: /* Defines the columns of a grid container */;
+grid-template-rows: /* Defines the rows of a grid container */;
+grid-gap: /* Specifies the gap between grid items */;
+justify-items: /* Aligns grid items along the inline axis */;
+align-content: /* Aligns grid tracks within the grid container */;
+
+/* Animation and Transition */
+animation: /* Shorthand property for setting animations */;
+animation-name: /* Defines the name of the animation */;
+animation-duration: /* Specifies the duration of the animation */;
+animation-timing-function: /* Defines the speed curve of the animation */;
+transition: /* Shorthand for transition properties */;
+transition-property: /* Specifies the property to transition */;
+transition-duration: /* Specifies the duration of the transition */;
+
+/* Miscellaneous */
+visibility: /* Specifies whether an element is visible or hidden */;
+cursor: /* Controls the appearance of the mouse cursor when it hovers over an element */;
+overflow: /* Controls what happens if content overflows an element (visible, hidden, scroll, auto) */;
+filter: /* Applies visual effects like blur or brightness to elements */;
+box-shadow: /* Adds shadow effects around an element */;
+transform: /* Applies 2D or 3D transformation to an element (rotate, scale, translate, etc.) */;
+content: /* Inserts generated content before or after an element (usually used with ::before and ::after) */;
+
+/* Pseudo-classes */
+:hover: /* Styles an element when it is hovered over by a user */;
+:focus: /* Styles an element when it gains focus (like an input field) */;
+:active: /* Styles an element when it is being activated (e.g., clicked) */;
+:disabled: /* Styles a disabled form element */;
+
+/* Media Queries */
+@media: /* Applies styles based on device properties (like screen size) */;
